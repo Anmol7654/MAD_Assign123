@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.moodselector"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\Shivam\.gradle\caches\8.9\transforms\0d3aa342b9549cc1543d2e7fe296e21a\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.moodselector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\Shivam\.gradle\caches\8.9\transforms\0d3aa342b9549cc1543d2e7fe296e21a\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\Shivam\.gradle\caches\8.9\transforms\0d3aa342b9549cc1543d2e7fe296e21a\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.moodselector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\Shivam\.gradle\caches\8.9\transforms\0d3aa342b9549cc1543d2e7fe296e21a\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\Shivam\.gradle\caches\8.9\transforms\0d3aa342b9549cc1543d2e7fe296e21a\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml:5:5-21:19
+18        android:allowBackup="true"
+18-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\Shivam\.gradle\caches\8.9\transforms\0d3aa342b9549cc1543d2e7fe296e21a\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml:7:9-43
+22        android:label="Mood Selector"
+22-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml:8:9-38
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml:9:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml:10:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.MoodSelector" >
+26-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml:11:9-50
+27        <activity android:name="com.example.moodselector.MoodDisplayActivity" />
+27-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml:12:9-57
+27-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml:12:19-54
+28        <activity android:name="com.example.moodselector.SuggestionsActivity" />
+28-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml:13:9-57
+28-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml:13:19-54
+29        <activity
+29-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml:14:9-20:20
+30            android:name="com.example.moodselector.MainActivity"
+30-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml:14:19-47
+31            android:exported="true" >
+31-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml:15:13-36
+32            <intent-filter>
+32-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml:16:13-19:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml:17:17-69
+33-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml:17:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml:18:17-77
+35-->C:\Users\Shivam\AndroidProjects\MoodSelectorApp\app\src\main\AndroidManifest.xml:18:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shivam\.gradle\caches\8.9\transforms\0205d01b13d19ff48c6b4bbca7646eb1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+40            android:name="androidx.startup.InitializationProvider"
+40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shivam\.gradle\caches\8.9\transforms\0205d01b13d19ff48c6b4bbca7646eb1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+41            android:authorities="com.example.moodselector.androidx-startup"
+41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shivam\.gradle\caches\8.9\transforms\0205d01b13d19ff48c6b4bbca7646eb1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+42            android:exported="false" >
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shivam\.gradle\caches\8.9\transforms\0205d01b13d19ff48c6b4bbca7646eb1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+43            <meta-data
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shivam\.gradle\caches\8.9\transforms\0205d01b13d19ff48c6b4bbca7646eb1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shivam\.gradle\caches\8.9\transforms\0205d01b13d19ff48c6b4bbca7646eb1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+45                android:value="androidx.startup" />
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shivam\.gradle\caches\8.9\transforms\0205d01b13d19ff48c6b4bbca7646eb1\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+46            <meta-data
+46-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Shivam\.gradle\caches\8.9\transforms\4abddb3c4c99e8f97082dc63036a713f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Shivam\.gradle\caches\8.9\transforms\4abddb3c4c99e8f97082dc63036a713f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+48                android:value="androidx.startup" />
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Shivam\.gradle\caches\8.9\transforms\4abddb3c4c99e8f97082dc63036a713f\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+49        </provider>
+50    </application>
+51
+52</manifest>
