@@ -9,14 +9,9 @@ A simple, beautiful Android app that helps users identify and express their mood
 - **Modern UI:** Gradient backgrounds, styled buttons, and easy navigation.
 - **Back Navigation:** Easily return to previous screens.
 
-## Screenshots
-<!-- Add screenshots of your app here if possible -->
 
 ## Getting Started
 1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/MoodSelectorApp.git
-   ```
 2. **Open in Android Studio.**
 3. **Requirements:**
    - Android Studio (latest recommended)
@@ -37,13 +32,4 @@ A simple, beautiful Android app that helps users identify and express their mood
 - Tap "Mood Suggestions" for practical tips and three motivational quotes.
 - Use the back button to return to previous screens.
 
-## Customization
-- Add more moods or update messages by editing the Java and XML files.
-- Change UI colors in `res/values/colors.xml` and gradients in `res/drawable/bg_gradient.xml`.
 
-## License
-This project is open source. Feel free to use, modify, and share!
-
----
-
-*Created with ❤️ using Android Studio.*
